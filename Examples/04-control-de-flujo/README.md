@@ -57,7 +57,7 @@ En este ejemplo vamos a jugar con `while`
 
 ```python
 def imprimir_mientras_tenga_algo(lista: list) -> None:
-    while len(lista):
+    while len(lista) > 0:
         x = lista.pop()
         print(x)
 ```
